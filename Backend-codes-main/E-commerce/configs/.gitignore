@@ -1,0 +1,64 @@
+# Ignore node_modules folder (Node.js projects)
+node_modules/
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Ignore compiled files
+*.class
+*.o
+*.so
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore package managers lock files
+package-lock.json
+yarn.lock
+pipfile.lock
+poetry.lock
+
+# Ignore build directories
+build/
+dist/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore miscellaneous files
+*.bak
+*.old
+*.orig
+*.out
+
+# Ignore configuration files with sensitive information
+*.env
+*.config
+*.local
+
+# Ignore coverage reports
+coverage/
+*.cover
+*.coverage
+
+# Ignore specific directories or files
+# example:
+# /path/to/specific/file_or_dir
+
+# You can add more custom rules here
